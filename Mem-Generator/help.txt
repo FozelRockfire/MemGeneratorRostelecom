@@ -1,0 +1,13 @@
+Command list:
+help - receiving a list of commands and complete information on how to enter data to create a meme.
+mem - create a meme, adds the specified text to the specified picture.
+	General view: java -jar mmg.jar mem path 'text' position=value fontName=value fontSize=value fontColor=value fontStyle=value – this command adds the text 'text' to the picture in the path directory
+	arguments for command "mem": optional[]/required()
+	Optional arguments set as argument=value
+	(path) - image name, when writing it is necessary to specify the name with extension;
+	('text')  - text that will be placed on the image, it must be specified in quotation marks!;
+	[position] - text position on picture, possible values: top, bottom, center;
+	[fontName] - font name, possible values: Arial, Dialog, DialogInput, Monospaced, Serif, SansSerif;
+	[fontSize] - font size, set as an integer number;
+	[fontColor] - font color, possible values: 0 (set WHITE), 1 (set BLACK). Default value is 0.
+	[fontStyle] - font style, possible values: 0 (set PLAIN), 1 (set BOLD), 2 (set ITALIC). Default value is 0.
